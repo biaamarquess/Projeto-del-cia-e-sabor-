@@ -1,4 +1,4 @@
-# Projeto-delicia-e-sabor-
+# Projeto delicia e sabor 
 O projeto consiste em um sistema web desenvolvido para otimizar a comunicação entre garçons e a equipe da cozinha de um restaurante. A plataforma permite que o garçom registre o prato solicitado pelo cliente, incluindo a descrição detalhada e o número da mesa. Essas informações são enviadas automaticamente para a cozinha, onde são exibidas em uma tabela clara e organizada. O sistema possui áreas separadas, garantindo que cada equipe visualize apenas a sua parte: o garçom tem acesso apenas à interface de registro de pedidos, enquanto o pessoal da cozinha vê exclusivamente a tabela com as solicitações.
 
 # Objetivos
