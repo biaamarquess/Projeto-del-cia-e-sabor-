@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicia e sabores</title>
+    <link rel="stylesheet" href="/static/styles/estilo.css">
+    <link rel="shortcut icon" href="/static/assets/chapel.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js" integrity="sha512-8BHxHDLsOHx+flIrQ0DrZcea7MkHqRU5GbTHmbdzMRnAaoCIkZ97PqZcXJkKZckMMhqfoeaJE+DNUVuyoQsO3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+
+    <div class="background">
+        
+    </div>
+        
+    </div>
+      
+        <!-- <h1>Fazer Pedido</h1> 
+        <form action="/fazer_pedido" method="post">
+            <input type="text" name="nome_prato" id="nome_prato" placeholder="Nome do prato" required>
+            <input type="text" name="descricao" id="descricao" placeholder="Descrição" required>
+            <input type="number" name="mesa" id="mesa" placeholder="Mesa" required>
+            <button type="submit">Fazer Pedido</button>
+        </form>-->
+
+        <img class="logo" src="/static/assets/chat.png" alt="" width="600px">
+        
+        <h1>Fazer Pedido</h1>
+        <form action="/fazer_pedido" method="POST">
+            <input type="text" name="nome_prato" placeholder="Nome do prato" required>
+            <input type="text" name="descricao" placeholder="Descrição" required>
+             <select name="mesa" id="mesa">
+                <option value="1">Mesa 1</option>
+                <option value="2">Mesa 2</option>
+                <option value="3">Mesa 3</option>
+                <option value="4">Mesa 4</option>
+                <option value="5">Mesa 5</option>
+                <option value="6">Mesa 6</option>
+            </select>
+            <button type="submit">Enviar Pedido</button>
+
+    
+        </form>
+       
+        </div>
+
+ </body>
+</html>
+
