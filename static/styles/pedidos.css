@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-image: url('/static/assets/fundoo.png');
+}
+
+
+
+.background::after{
+    content: '';
+
+    width: inherit;
+    height: inherit;
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(109deg, rgba(83, 1, 15, 0.9) 15%, rgba(223, 71, 84, 0.589) 50%, rgba(83, 1, 15, 0.9) 85%);
+    z-index: -1;
+}
+
+
+h1 {
+    font-family: "Orelega One";
+    text-align: center;
+    color: white;
+}
+
+form, table {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #a72828;
+    color: white;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #a72828;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    max-width: 400px;
+}
+
+button:hover {
+    background-color: #a7282871;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width:480px){
+    h1{
+        max-width: 300px;
+        font-size: 28px;
+    }
+
+    form{
+        padding: 15px;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+
+    table{
+        max-width: 200px;
+
+    }
+
+    input{
+        max-width: 200px;
+    }
+
+    button{
+        padding:7px;
+        border-radius: 3px;
+        font-size: 10px;
+        max-width: 300px;
+    }
+}
